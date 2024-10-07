@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Partners } from "@/components/Partners";
 import { Classes } from "@/components/Classes";
+import { HaveAllah } from "@/components/HaveAllah";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <Partners />
 
       <Classes />
+
+      <HaveAllah />
     </>
   );
 }
