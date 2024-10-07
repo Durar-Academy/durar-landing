@@ -4,7 +4,7 @@ const companiesImage = ["/company1.svg", "/company2.svg", "/company3.svg", "/com
 
 export function Partners() {
   return (
-    <div className="bg-darkgreen w-full py-12">
+    <section className="bg-darkgreen w-full py-12">
       <div className="w-5/6 mx-auto flex items-center gap-20 justify-between opacity-75">
         <h3 className="font-semibold text-white text-2xl leading-9 shrink-0">Our partners</h3>
 
@@ -14,6 +14,6 @@ export function Partners() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Partners } from "@/components/Partners";
+import { Classes } from "@/components/Classes";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       </div>
 
       <Partners />
+
+      <Classes />
     </>
   );
 }
