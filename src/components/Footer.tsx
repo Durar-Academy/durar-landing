@@ -8,7 +8,9 @@ export function Footer() {
     <footer className="bg-darkgreen py-16  rounded-t-[40px]">
       <div className="w-11/12 mx-auto flex justify-between items-center">
         <div>
-          <Image alt="Durar Logo" width={220} height={70} src="/durar-white.svg" />
+          <Link href="/">
+            <Image alt="Durar Logo" width={220} height={70} src="/durar-white.svg" />
+          </Link>
         </div>
 
         <nav className="flex items-center justify-center gap-6 text-white font-medium text-lg">

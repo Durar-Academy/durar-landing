@@ -8,7 +8,9 @@ export function Header() {
   return (
     <header className="flex justify-between items-center bg-white border-4 border-orange/50 rounded-full pl-14 pr-5 py-6 w-full max-w-[960px] mx-auto">
       <div>
-        <Image alt="Durar Logo" width={146} height={46} src="/durar-green.svg" />
+        <Link href="/">
+          <Image alt="Durar Logo" width={146} height={46} src="/durar-green.svg" />
+        </Link>
       </div>
 
       <nav className="flex items-center justify-center gap-12 text-high font-medium text-lg">
