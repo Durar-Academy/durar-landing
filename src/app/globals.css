@@ -70,6 +70,27 @@ h6 {
   background-repeat: no-repeat;
 }
 
+.bg-container-2 {
+  background-image: linear-gradient(rgb(23, 58, 1), rgb(23, 58, 1)), url("/image1.svg");
+  background-blend-mode: multiply;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input[type="radio"]:checked + label {
+  color: white;
+}
+
+input[id="radio-1"]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+input[id="radio-2"]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import { ClassesCard } from "@/components/ClassesCard";
+import { WhyUsCard } from "@/components/WhyUsCard";
 import { SectionBadge } from "@/components/SectionBadge";
 
-const classesCardsDetails = [
+const whyUsCardDetails = [
   {
     heading: "Flexible Learning",
     icon: "/calendar.svg",
@@ -21,7 +21,7 @@ const classesCardsDetails = [
   },
 ];
 
-export function Classes() {
+export function WhyUs() {
   return (
     <section className="px-24 py-32 bg-white">
       <div className="w-full max-w-[1200px] mx-auto text-center">
@@ -37,9 +37,9 @@ export function Classes() {
           </h2>
 
           <div className="mt-20 w-full flex justify-between gap-16 h-80">
-            {classesCardsDetails.map((classesCardDetail, index) => (
+            {whyUsCardDetails.map((whyUsCardDetail, index) => (
               <div key={index} className="h-full">
-                <ClassesCard icon={classesCardDetail.icon} heading={classesCardDetail.heading} content={classesCardDetail.content} />
+                <WhyUsCard icon={whyUsCardDetail.icon} heading={whyUsCardDetail.heading} content={whyUsCardDetail.content} />
               </div>
             ))}
           </div>

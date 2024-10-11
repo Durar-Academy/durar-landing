@@ -1,13 +1,14 @@
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Partners } from "@/components/Partners";
-import { Classes } from "@/components/Classes";
+import { WhyUs } from "@/components/WhyUs";
 import { HaveAllah } from "@/components/HaveAllah";
 import { Footer } from "@/components/Footer";
 import { FAQ } from "@/components/FAQ";
 import { Testimonials } from "@/components/Testimonials";
 import { Pricing } from "@/components/Pricing";
 import { Process } from "@/components/Process";
+import { Topics } from "@/components/Topics";
 
 export default function Home() {
   return (
@@ -20,7 +21,9 @@ export default function Home() {
 
       <Partners />
 
-      <Classes />
+      <WhyUs />
+
+      <Topics />
 
       <Process />
 
