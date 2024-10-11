@@ -28,12 +28,12 @@ const pricingsContent = [
 export function Pricing() {
   return (
     <section className="pt-24 pb-36">
-      <div className="w-5/6 mx-auto text-center">
+      <div className="w-full px-8 xl:px-0 xl:w-5/6 mx-auto text-center">
         <SectionBadge label="Pricing" />
 
         <h2 className="text-darkgreen font-semibold text-3xl leading-10 mt-8">No credit card required</h2>
 
-        <div className="mt-14 text-left flex items-center justify-between gap-9">
+        <div className="mt-14 text-left flex items-center justify-between gap-4 xl:gap-9">
           {pricingsContent.map((pricingContent, index) => (
             <div
               key={index}
@@ -41,7 +41,7 @@ export function Pricing() {
                 "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 basis-1/3",
                 index === 1 && "bg-darkgreen border-0"
               )}>
-              <div className={cn("bg-white rounded-xl p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
+              <div className={cn("bg-white rounded-xl p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
                 <div className="flex justify-between text-darkgreen flex-col gap-9">
                   <p className="text-xs">Subscription</p>
 

@@ -58,7 +58,7 @@ export function Testimonials() {
 
       <SectionBadge label="Testimonials" />
 
-      <Carousel className="mt-20 ml-32">
+      <Carousel className="mt-20 ml-8 xl:ml-32">
         <CarouselContent className="ml-4 gap-7 text-left">
           {testimonialsContent.map((testimonialContent, index) => (
             <CarouselItem

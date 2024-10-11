@@ -60,7 +60,7 @@ export function Topics() {
   const [isBeginners, setIsBeginners] = useState(true);
 
   return (
-    <section className="pt-12 pb-40 px-20 text-center bg-container-2">
+    <section className="pt-12 pb-40 px-8 xl:px-20 text-center bg-container-2">
       <SectionBadge label="Classes" inverse={true} />
 
       <h2 className="text-white font-semibold text-3xl leading-10 mt-14 max-w-[548px] mx-auto">

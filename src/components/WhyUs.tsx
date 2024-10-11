@@ -23,7 +23,7 @@ const whyUsCardDetails = [
 
 export function WhyUs() {
   return (
-    <section className="px-24 py-32 bg-white">
+    <section className="px-12 xl:px-24 py-32 bg-white">
       <div className="w-full max-w-[1200px] mx-auto text-center">
         <SectionBadge label="Why choose Us" />
 
@@ -36,7 +36,7 @@ export function WhyUs() {
             <span className="text-orange"> from expert?</span>
           </h2>
 
-          <div className="mt-20 w-full flex justify-between gap-16 h-80">
+          <div className="mt-20 w-full flex justify-between gap-8 xl:gap-16 h-80">
             {whyUsCardDetails.map((whyUsCardDetail, index) => (
               <div key={index} className="h-full">
                 <WhyUsCard icon={whyUsCardDetail.icon} heading={whyUsCardDetail.heading} content={whyUsCardDetail.content} />

@@ -14,7 +14,7 @@ export function TopicsCard({ id, image, heading, paragraph, level }: TopicCardPr
   return (
     <div className={cn("bg-white rounded-[40px] p-8 text-left w-full max-w-[420px]", id === 2 ? "scale-100" : "scale-90")}>
       <div className="relative rounded-[28px] w-full h-[210px] overflow-hidden">
-        <Image src={image} alt={heading} fill className="object-cover rounded-[28px]" />
+        <Image src={image} alt={heading} fill sizes="auto" className="object-cover rounded-[28px]" />
 
         <div className="absolute inset-0 bg-black/10"></div>
 

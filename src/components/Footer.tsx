@@ -5,15 +5,15 @@ import { footerLinks, socialLinks } from "@/constants/routes";
 
 export function Footer() {
   return (
-    <footer className="bg-darkgreen py-16  rounded-t-[40px]">
+    <footer className="bg-darkgreen py-16 rounded-t-[40px]">
       <div className="w-11/12 mx-auto flex justify-between items-center">
-        <div>
+        <div className="scale-75 xl:scale-100">
           <Link href="/">
             <Image alt="Durar Logo" width={220} height={70} src="/durar-white.svg" />
           </Link>
         </div>
 
-        <nav className="flex items-center justify-center gap-6 text-white font-medium text-lg">
+        <nav className="flex items-center justify-center gap-3 xl:gap-6 text-white font-medium text-base xl:text-lg">
           {footerLinks.map((footerLink) => (
             <Link key={footerLink.url} href={footerLink.url} className="hover:underline hover:underline-offset-4 decoration-2">
               {footerLink.label}
@@ -21,7 +21,7 @@ export function Footer() {
           ))}
         </nav>
 
-        <div className="flex gap-4 items-center justify-center">
+        <div className="flex gap-4 items-center justify-center scale-90 xl:scale-100">
           {socialLinks.map((socialLink) => (
             <Link
               key={socialLink.url}

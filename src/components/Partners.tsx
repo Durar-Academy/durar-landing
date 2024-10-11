@@ -5,7 +5,7 @@ const companiesImage = ["/company1.svg", "/company2.svg", "/company3.svg", "/com
 export function Partners() {
   return (
     <section className="bg-darkgreen w-full py-12">
-      <div className="w-5/6 mx-auto flex items-center gap-20 justify-between opacity-75">
+      <div className="mx-auto flex items-center opacity-75 flex-wrap justify-center gap-12 w-11/12 xl:justify-between xl:gap-20 xl:w-5/6">
         <h3 className="font-semibold text-white text-2xl leading-9 shrink-0">Our partners</h3>
 
         <div className="flex items-center gap-10">

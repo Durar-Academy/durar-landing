@@ -21,8 +21,8 @@ const processContents = [
 
 export function Process() {
   return (
-    <section className="-mt-20 mb-14">
-      <div className="relative mx-auto max-w-[1200px] pt-12 px-[80px] pb-28 text-center rounded-[40px] bg-[#FEF9F3] border border-orange/50">
+    <section className="-mt-20 mb-14 px-12 xl:px-0">
+      <div className="relative mx-auto max-w-[1200px] pt-12 px-12 xl:px-[80px] pb-28 text-center rounded-[40px] bg-[#FEF9F3] border border-orange/50">
         <Image
           width={69}
           height={69}
