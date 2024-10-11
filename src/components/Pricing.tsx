@@ -27,7 +27,7 @@ const pricingsContent = [
 
 export function Pricing() {
   return (
-    <section className="pt-24 pb-36">
+    <section id="pricing" className="-scroll-m-16 pt-24 pb-36">
       <div className="w-full px-4 md:px-8 xl:px-0 xl:w-5/6 mx-auto text-center">
         <SectionBadge label="Pricing" />
 
@@ -41,7 +41,11 @@ export function Pricing() {
                 "bg-[#FFF7ED] border border-black/5 rounded-3xl px-3 pt-3 pb-7 lg:basis-1/3 text-left",
                 index === 1 && "bg-darkgreen border-0"
               )}>
-              <div className={cn("bg-white rounded-xl p-4 md:p-7 lg:p-4 xl:p-7 flex items-end justify-between", index === 1 && "bg-[#FFF7ED]")}>
+              <div
+                className={cn(
+                  "bg-white rounded-xl p-4 md:p-7 lg:p-4 xl:p-7 flex items-end justify-between",
+                  index === 1 && "bg-[#FFF7ED]"
+                )}>
                 <div className="flex justify-between text-darkgreen flex-col gap-9">
                   <p className="text-xs">Subscription</p>
 

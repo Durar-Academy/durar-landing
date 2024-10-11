@@ -23,7 +23,7 @@ const whyUsCardDetails = [
 
 export function WhyUs() {
   return (
-    <section className="px-4 md:px-12 xl:px-24 py-32 bg-white">
+    <section id="about" className="-scroll-m-20 px-4 md:px-12 xl:px-24 py-32 bg-white">
       <div className="w-full max-w-[1200px] mx-auto text-center">
         <SectionBadge label="Why choose Us" />
 

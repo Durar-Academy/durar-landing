@@ -52,7 +52,7 @@ const testimonialsContent = [
 
 export function Testimonials() {
   return (
-    <section className="py-20 relative text-center bg-container-1">
+    <section id="testimonials" className="-scroll-m-16 py-20 relative text-center bg-container-1">
       <Image src={"achievementbadge.svg"} width={63} height={63} className="hidden md:absolute top-28 left-20 lg:left-52" alt="Decorator Icon" />
       <Image src={"heart.svg"} width={68} height={68} className="hidden md:absolute top-16 right-12 lg:right-36" alt="Decorator Icon" />
 

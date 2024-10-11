@@ -27,10 +27,22 @@ const FAQContents = [
 
 export function FAQ() {
   return (
-    <section className="bg-white pt-28 pb-32">
+    <section id="faq" className="bg-white -scroll-m-20 pt-28 pb-32">
       <div className="mx-4 md:w-4/5 lg:w-3/5 md:mx-auto text-center relative">
-        <Image src={"magnifyingglass.svg"} width={99} height={99} className="hidden md:absolute -top-9 -left-8 lg:-left-12" alt="Decorator Icon" />
-        <Image src={"exclamation.svg"} width={75} height={75} className="hidden md:absolute -bottom-20 lg:-bottom-3 -right-14 lg:-right-28" alt="Decorator Icon" />
+        <Image
+          src={"magnifyingglass.svg"}
+          width={99}
+          height={99}
+          className="hidden md:absolute -top-9 -left-8 lg:-left-12"
+          alt="Decorator Icon"
+        />
+        <Image
+          src={"exclamation.svg"}
+          width={75}
+          height={75}
+          className="hidden md:absolute -bottom-20 lg:-bottom-3 -right-14 lg:-right-28"
+          alt="Decorator Icon"
+        />
 
         <SectionBadge label="FAQ" />
 
