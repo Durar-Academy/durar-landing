@@ -62,13 +62,15 @@ export function Pricing() {
                   </p>
                 </div>
 
-                <button
+                <a
+                  href="https://app.duraracademy.com/auth"
+                  target="_self"
                   className={cn(
                     "rounded-full text-center text-[#FCFCFC] font-semibold px-3 md:px-6 py-3 text-xs leading-3 bg-darkgreen hover:bg-darkgreen/80 active:bg-darkgreen visited:bg-darkgreen transition",
                     index === 1 && "bg-orange hover:bg-orange/80 active:bg-orange visited:bg-orange"
                   )}>
                   Get started
-                </button>
+                </a>
               </div>
 
               <div className={cn("mt-7 pl-3 flex flex-col gap-4 text-sm", index === 1 && "text-white")}>
